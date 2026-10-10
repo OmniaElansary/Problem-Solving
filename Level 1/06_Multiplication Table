@@ -1,0 +1,8 @@
+n = int(input())
+num=[1,2,3,4,5,6,7,8,9,10]
+for i in range(10):
+    Multi=num[i]*n
+    print (str(n) + " X " + str(num[i]) + " = " + str(Multi))
+# Error: range(num) was wrong because range() must take an intger.
+# Error: num(i) was wrong because to access number from list it must be square brackets num[i]
+# Print multiplication table
